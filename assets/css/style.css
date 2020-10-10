@@ -8,18 +8,20 @@ body {
 /*============= TOP BAR HEADER =============*/
 
 .top-bar {
-  background-color: #94e5ff;
+  background-color: #48d2ff;
   height: 2.8rem;
   padding: .5rem 0;
 }
+
 .top-bar a {
   color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
 }
-
 
 /*============= NAVIGATION =============*/
 
-
+nav.navbar.bg-dark.navbar-dark.navbar
 
 /*============= CAROUSEL =============*/
 
