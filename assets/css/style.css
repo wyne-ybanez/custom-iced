@@ -8,7 +8,7 @@ body {
 /*============= TOP BAR HEADER =============*/
 
 .top-bar {
-  background-color: #48d2ff;
+  background-color: #000;
   height: 2.8rem;
   padding: .5rem 0;
 }
@@ -20,9 +20,30 @@ body {
 }
 
 /*============= NAVIGATION =============*/
+.navbar {
+  background-color: #48d2ff;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+  z-index: 1;
+}
 
-nav.navbar.bg-dark.navbar-dark.navbar
+.navbar-brand img{
+  height: 4rem;
+}
 
+.nav-item {
+  padding: 0.5rem;
+}
+
+.nav-link active{
+  color: #fff!important; 
+}
+
+.nav-link:hover {
+  color: #fff!important;
+}
 /*============= CAROUSEL =============*/
 
 
