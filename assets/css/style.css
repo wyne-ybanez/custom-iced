@@ -16,7 +16,11 @@ body {
 .top-bar a {
   color: white;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
+}
+
+.fa-instagram, .fa-tiktok {
+  margin-right: 0.5rem;
 }
 
 /*============= NAVIGATION =============*/
@@ -45,14 +49,33 @@ body {
   color: #fff!important;
 }
 /*============= CAROUSEL =============*/
+.fa-chevron-left, .fa-chevron-right {
+  color: #48d2ff;
+}
 
-
-
+.carousel-inner {
+  max-height: 58rem!important;
+}
 /*---Change Carousel Transition Speed --*/
-
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 1.1s ease;
+}
 
 /*-- Carousel Content --*/
+.carousel-caption {
+  position: absolute;
+  top: 75%;
+  transform: translateY(-30%);
+  text-transform: uppercase;
+}
 
+.bg-custom {
+  background-color: rgba(0, 0, 0, .3);
+  color: white;
+  border-radius: 1rem;
+}
 
 
 /*===== FIXED BACKGROUND IMG =====*/
@@ -79,10 +102,13 @@ body {
 }
 /* Devices under 768px (md) */
 @media (max-width: 767.98px) {
-
 }
 
-
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  .top-bar span{
+    visibility: hidden;
+  }
+}  
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
