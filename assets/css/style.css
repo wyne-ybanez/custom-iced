@@ -1,26 +1,8 @@
 /*-- Body Reset --*/
 body {
   overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Monserrat', sans-serif;
   color: #616971;
-}
-
-/*============= TOP BAR HEADER =============*/
-
-.top-bar {
-  background-color: #000;
-  height: 2.8rem;
-  padding: .5rem 0;
-}
-
-.top-bar a {
-  color: white;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.fa-instagram, .fa-tiktok {
-  margin-right: 0.5rem;
 }
 
 /*============= NAVIGATION =============*/
@@ -49,52 +31,45 @@ body {
   color: #fff!important;
 }
 
-/*============= CAROUSEL =============*/
+/*============= BACKGROUND IMAGE =============*/
 .bg-container {
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1)
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+  background: url('../img/carousel/1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  min-height: 100vh;
 }
 
-.bg-inner {
-  max-height: 58rem!important;
-}
-
-.bg-caption {
-  position: absolute;
-  top: 110%;
-  right: 28%;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.bg-caption h1{
-  font-size: 2rem;
-  text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+.header-h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  padding-top: 13rem;
+  font-weight: 300;
+  font-size: 56px;
   text-align: center;
+  text-shadow: 0 1rem 1rem rgba(0, 0, 0, 1);
 }
 
-.border-primary {
-  border-top: .2rem solid #48d2ff!important;
-
-}
-
-.bg-caption h3{
-  font-size: 1.8rem;
-  text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 1);
+.header-h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 200;
   text-align: center;
+  text-shadow: 0 1rem 1rem rgba(0, 0, 0, 1);
+  margin-top: 1.5rem;
 }
 
-.btn-lg {
-  border-radius: 10px;
-  text-transform: uppercase;
-  font-size: 1rem;
-  border-width: medium;
-  margin-left: 4.8rem;
+.socialIcons {
+  text-align: center;
+  text-shadow: 0 1rem 1rem rgba(0, 0, 0, 1);
+  margin-top: 2rem;
 }
 
-.btn-lg:hover {
-  color: #000;
-  background-color: #fff;
-}
 /*===== SOCIAL ICONS =====*/
 .socialIcons i{
   color: #fff;
@@ -122,15 +97,44 @@ div {
   margin-bottom: 10px;
   margin-left: 24px;
   margin-right: 24px; 
-  margin-top: 
 } 
+/*===== ABOUT SECTION =====*/
 
+.about-section {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  min-height: 0vh;
+  background-color: #000;
+  color: #ffffff;
+  max-width: 100%;
+}
 
+.about-section h1 {
+  font-weight: 600;
+}
 
-/*-- Emoji Navbar --*/
+.buttons {
+  text-align: center;
+  vertical-align: middle;
+}
+.btn {
+  display: inline-block;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  border-width: medium;
+  margin-left: 4.8rem;
+  color: #fff;
+  background-color: #48d2ff;
+}
 
-
-
+.btn-lg:hover {
+  color: #000;
+  background-color: #fff;
+}
 /*============= FOOTER =============*/
 
 
